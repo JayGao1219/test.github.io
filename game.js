@@ -284,7 +284,7 @@ function updateobscale(){
 	var xx=me.sx;
 	var yy=me.sy;
 	var rr=me.radius;
-	var speed=getlevel()+5;
+	var speed=getlevel()+7;
 	for(let i=0;i<obscale.length;++i){
 		if(!obscale[i].check_if_in()){
 			if(obscale[i].check_if_over(xx,yy,rr)){
@@ -337,4 +337,4 @@ var update=function(){//0:Tobegin 1:playing 2:die 3:playagain
 	}
 }
 
-var aaa=self.setInterval("update()",15);
+var aaa=self.setInterval("update()",13);
