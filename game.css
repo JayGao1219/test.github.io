@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	touch-action: none;
+}
+
+html{
+	height: 100%;
+	width:100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
+#main{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#score{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 5;
+	transform: translate(-50%,-50%) scale(0.5) translateZ(0);
+}
+#food{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 2;
+	transform: translate(-50%,-50%) scale(0.5) translateZ(0);	
+}
+
+#background{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	transform: translate(-50%,-50%) scale(0.5) translateZ(0);
+	background-color: #777777;	
+}
+
+#ball{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 3;
+	transform: translate(-50%,-50%) scale(0.5) translateZ(0);
+}
+
+#board{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 4;
+	transform: translate(-50%,-50%) scale(0.5) translateZ(0);
+}
